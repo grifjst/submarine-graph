@@ -1,6 +1,6 @@
 # ⚓ Submarine GitHub Grid Animation
 
-A SVG animation of a submarine navigating across a 52x7 grid that mimics GitHub's contribution graph layout — with no actual contribution data required.
+An SVG animation of a submarine navigating across a 52x7 grid that mimics GitHub's contribution graph layout, with no actual contribution data required.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/grifjst/submarine-graph/output/submarine-graph.svg" alt="Submarine GitHub Grid Animation" />
@@ -21,7 +21,7 @@ A SVG animation of a submarine navigating across a 52x7 grid that mimics GitHub'
 Make sure to keep your GitHub token private. Do not commit your .env file or token to public repositories.
 
 ## 📂 Output
-After running the script, the SVG file submarine_grid.svg will be created in the project folder. Open it in a browser to see your animated submarine on the contribution grid.
+After running the script, the SVG file submarine_grid.svg will be created in the project folder. Open it in a browser to see    your animated submarine on the contribution grid.
 
 ## 🛠️ Troubleshooting
 If the script fails with an API error, verify that your GitHub token is set correctly.
