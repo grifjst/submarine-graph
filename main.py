@@ -74,7 +74,7 @@ def create_days_colored(days_raw):
         "color": color_for_count(d['contributionCount'])
     } for d in days_raw]
 
-def create_svg(days_colored, filename="submarine_graph.svg"):
+def create_svg(days_colored, filename="submarine-graph.svg"):
     dwg = svgwrite.Drawing(filename, size=(f"{WIDTH}px", f"{HEIGHT}px"))
     dwg.attribs['xmlns'] = "http://www.w3.org/2000/svg"
 
@@ -155,5 +155,3 @@ if __name__ == "__main__":
     raw_days = fetch_contributions(GITHUB_USERNAME, TOKEN)
     days_colored = create_days_colored(raw_days)
     create_svg(days_colored)
-
-
