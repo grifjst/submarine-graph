@@ -18,17 +18,16 @@ An SVG animation of a submarine navigating across a 52x7 grid that mimics GitHub
 ---
 
 ## 🔒 Security Notice
-Make sure to keep your GitHub token private. Do not commit your .env file or token to public repositories.
+- Make sure to keep your GitHub token private. Do not commit your .env file or token to public repositories.
 
 ## 📂 Output
-After running the script, the SVG file submarine_grid.svg will be created in the project folder. Open it in a browser to see    your animated submarine on the contribution grid.
+- After running the script, the SVG file submarine-graph.svg will be created in the project folder. Open it in a browser to see the animated submarine on the         contribution grid.
 
 ## 🛠️ Troubleshooting
-If the script fails with an API error, verify that your GitHub token is set correctly.
+- If the script fails with an API error, verify that your GitHub token is set correctly.
+- Ensure your environment variables are loaded if using .env.
 
-Ensure your environment variables are loaded if using .env.
-
-## 🛠️ Setup Instructions
+## ⚙ Setup Instructions
 
 1. **Clone this repository**:
 
